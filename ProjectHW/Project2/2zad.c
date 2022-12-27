@@ -1,4 +1,4 @@
-#include<stdio.h>
+п»ї#include<stdio.h>
 #include<math.h>
 #include<locale.h>
 
@@ -8,7 +8,7 @@ int main() {
 	float g;
 	float rad;
 	float sinys, cosinys, tagens, cotangens;
-	printf("Введите значение угла в грдадусах:");
+	printf("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ СѓРіР»Р° РІ РіСЂРґР°РґСѓСЃР°С…:");
 	scanf_s("%f", &g);
 	rad = PI / 180 * g;
 
