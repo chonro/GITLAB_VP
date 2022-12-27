@@ -1,4 +1,4 @@
-#include<stdio.h>
+п»ї#include<stdio.h>
 #include<math.h>
 #include<locale.h>
 int main()
@@ -10,23 +10,23 @@ int main()
 	int ugadal=0;
 	a_rand = rand() % 100;
 	for (int i = 0; i < 10; i++) {
-		printf("введите число:");
+		printf("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ:");
 		scanf_s("%d", &b_user);
 		if (b_user == a_rand)
 		{
-			printf("вы угадали!");
+			printf("РІС‹ СѓРіР°РґР°Р»Рё!");
 			ugadal = 1;
 			break;
 		}
 		else if (b_user > a_rand) {
-			printf("Введенное число больше загаданного\n");
+			printf("Р’РІРµРґРµРЅРЅРѕРµ С‡РёСЃР»Рѕ Р±РѕР»СЊС€Рµ Р·Р°РіР°РґР°РЅРЅРѕРіРѕ\n");
 		}
-		else printf("Введенное число меньше загаданного\n");
+		else printf("Р’РІРµРґРµРЅРЅРѕРµ С‡РёСЃР»Рѕ РјРµРЅСЊС€Рµ Р·Р°РіР°РґР°РЅРЅРѕРіРѕ\n");
 	}	
 	
 
 	if (ugadal == 0) {
-		printf("вы не угадали! Загаданное число %d",a_rand);
+		printf("РІС‹ РЅРµ СѓРіР°РґР°Р»Рё! Р—Р°РіР°РґР°РЅРЅРѕРµ С‡РёСЃР»Рѕ %d",a_rand);
 	}
 
 return 0;
