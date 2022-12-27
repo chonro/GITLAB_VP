@@ -1,4 +1,4 @@
-#include<stdio.h>
+п»ї#include<stdio.h>
 #include<math.h>
 #include<locale.h>
 int main()
@@ -11,6 +11,6 @@ int main()
 	if (a3 > 0)chek = chek + 1;
 	if (a4 > 0)chek = chek + 1;
 	if (a5 > 0)chek = chek + 1;
-	printf("Положительных чисел: %d", chek);
+	printf("РџРѕР»РѕР¶РёС‚РµР»СЊРЅС‹С… С‡РёСЃРµР»: %d", chek);
 	return 0;
 }
